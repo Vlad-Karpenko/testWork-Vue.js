@@ -1,0 +1,44 @@
+{
+  "name": "dzencode",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Vlad Karpenko <karpenko.vlad10@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "animate.css": "^3.7.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.4",
+    "file-loader": "^1.1.4",
+    "file-system": "^2.2.2",
+    "font-awesome": "^4.7.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^3.0.5",
+    "vue-template-compiler": "^2.6.2",
+    "vue2-filters": "^0.4.1",
+    "vuex": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
